@@ -11,12 +11,19 @@ Very Pale Cyan: hsl(193, 100%, 96%)
 Very Dark Cyan: hsl(192, 100%, 9%)
 Grayish Blue: hsl(208, 11%, 55%) */
 
+.container_hh{
+    background-image: url(images/bg-hero-desktop.svg);
+}
+
 /* header */
 
 header{
     display: flex;
     justify-content:space-between ;
     padding: 50px;
+}
+header img{
+    width: 2    00px;
 }
 header button{
     color:hsl(192, 100%, 9%) ;
@@ -26,6 +33,30 @@ header button{
     margin-right: 4%;
 }
 
+/* hero */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: space-between;
+    padding: 50px;
+}
+.hero img{
+    width: 100%;
+}
+.hero_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.hero_info h1{
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+.hero_info button{
+    width: 30%;
+    border-radius: 50px;
+    margin-top: 3%;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
