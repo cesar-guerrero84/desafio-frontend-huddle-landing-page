@@ -189,6 +189,13 @@ footer{
     background-color: hsl(192, 100%, 9%);
     padding: 10% ;
 }
+.logo-footer{
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    width: 20%;
+    margin-bottom: 3%;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
