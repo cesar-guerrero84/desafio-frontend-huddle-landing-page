@@ -25,7 +25,7 @@ body{
 header{
     display: flex;
     justify-content:space-between ;
-    padding: 50px;
+    padding: 3% 5%;
     margin: 0 3%;
 }
 header img{
@@ -46,11 +46,12 @@ header button{
 }
 
 /* hero */
+
 .hero{
     display: grid;
     grid-template-columns: repeat(2,50%);
     justify-content: space-between;
-    padding: 50px;
+    padding: 0 5%;
     font-family: 'Open Sans', sans-serif;
     margin: 0 3%;
 }
@@ -85,6 +86,68 @@ header button{
     color: hsl(192, 100%, 9%);
     word-spacing: 3px;
     margin: 2% 0;
+}
+
+/* info section */
+
+.info-section{
+    padding: 20% 5%;
+    margin: 0 3%;
+    font-family: 'Open Sans', sans-serif;
+}
+.info-section img{
+    width: 55%;
+    object-fit: cover;
+}
+.info-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.info-container article{
+    display: flex;
+    flex-direction: column;
+    margin: 8% 0;
+}
+.info-container h2{
+    margin: 3% 0;
+}
+.info-container p{
+    font-size: 15px;
+    color:hsl(208, 11%, 55%) ;
+    line-height: 25px;
+}
+.info-container figure{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+.info-container_flowing{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10% 0;
+}
+.info-container_flowing article{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+.info-container_flowing h2{
+    margin: 3% 0;
+}
+.info-container_flowing p{
+    font-size: 15px;
+    color:hsl(208, 11%, 55%) ;
+    line-height: 25px;
+}
+.info-container_flowing img{
+    width: 55%;
+    object-fit: cover;
+}
+.info-container_flowing figure{
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
 }
 
 
