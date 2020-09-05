@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+
 }
 /* colores */
 
@@ -10,9 +11,13 @@ Neutral
 Very Pale Cyan: hsl(193, 100%, 96%)
 Very Dark Cyan: hsl(192, 100%, 9%)
 Grayish Blue: hsl(208, 11%, 55%) */
-
+body{
+    font-size: 18px;
+}
 .container_hh{
     background-image: url(images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* header */
@@ -21,16 +26,23 @@ header{
     display: flex;
     justify-content:space-between ;
     padding: 50px;
+    margin: 0 3%;
 }
 header img{
-    width: 2    00px;
+    width: 15%;
+    height: 10%;
 }
 header button{
     color:hsl(192, 100%, 9%) ;
-    border: 1 solid whitesmoke;
-    border-radius: 5px ;
+    border: 1px solid whitesmoke;
+    border-radius: 40px ;
     width: 15%;
     margin-right: 4%;
+    cursor: pointer;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 /* hero */
@@ -39,6 +51,8 @@ header button{
     grid-template-columns: repeat(2,50%);
     justify-content: space-between;
     padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 3%;
 }
 .hero img{
     width: 100%;
@@ -51,11 +65,26 @@ header button{
 .hero_info h1{
     font-size: 40px;
     margin-bottom: 3%;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
 }
 .hero_info button{
-    width: 30%;
+    width: 35%;
     border-radius: 50px;
     margin-top: 3%;
+    padding: 2.5%;
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.hero_info span{
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    word-spacing: 3px;
+    margin: 2% 0;
 }
 
 
