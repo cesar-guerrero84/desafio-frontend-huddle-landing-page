@@ -94,6 +94,10 @@ header button{
     padding: 20% 5%;
     margin: 0 3%;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 .info-section img{
     width: 55%;
@@ -171,7 +175,7 @@ header button{
     flex-direction: column;
 }
 .bottomFree button{
-    width: 60%;
+    width: 70%;
     border-radius: 30px;
     padding: 20px;
     margin-left: 20%;
@@ -181,6 +185,7 @@ header button{
     color: whitesmoke;
     font-size: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* footer */
@@ -188,13 +193,78 @@ header button{
 footer{
     background-color: hsl(192, 100%, 9%);
     padding: 10% ;
+    padding-bottom:7% ;
+    display: grid;
+    grid-gap: 8%;
+    grid-template-columns: repeat(4,35% 10% 10% 30% );
+    color: white;
 }
 .logo-footer{
     background-color: white;
-    padding: 1%;
+    padding: 1.5%;
     border-radius: 20px;
-    width: 20%;
-    margin-bottom: 3%;
+    width: 80%;
+    margin-bottom: 13%;
+}
+.first_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.location{
+    display: flex;
+    flex-direction:row ;
+}
+.telefono{
+    display: flex;
+    flex-direction:row ;
+    margin: 7% 0;
+}
+.mail{
+    display: flex;
+    flex-direction:row ;
+}
+.location img{
+    margin-right: 7%;
+    height: 10%;
+}
+.telefono img{
+    margin-right: 5%;
+    height: 10%;
+}
+.mail img{
+    margin-right: 5%;
+    height: 10%;
+}
+.second_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70%;
+}
+.what{
+    margin: 15% 0;
+}
+.third_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70%;
+}
+.blog{
+    margin: 15% 0;
+}
+.fourth_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.fourth_column i{
+    font-size: 150%;
+}
+.redesSociales{
+    margin-bottom: 40%;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
