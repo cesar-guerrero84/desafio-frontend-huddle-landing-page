@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-
+    padding: 0;
 }
 /* colores */
 
@@ -18,6 +18,7 @@ body{
     background-image: url(images/bg-hero-desktop.svg);
     background-position: center;
     background-size: cover;
+
 }
 
 /* header */
@@ -36,13 +37,12 @@ header button{
     color:hsl(192, 100%, 9%) ;
     border: 1px solid whitesmoke;
     border-radius: 40px ;
-    width: 15%;
-    margin-right: 4%;
+    width: 17%;
     cursor: pointer;
     padding: 13px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* hero */
@@ -70,7 +70,7 @@ header button{
     color: hsl(192, 100%, 9%);
 }
 .hero_info button{
-    width: 35%;
+    width: 50%;
     border-radius: 50px;
     margin-top: 3%;
     padding: 2.5%;
@@ -81,18 +81,19 @@ header button{
     font-size: 15px;
     font-weight: 700;
 }
-.hero_info span{
+.hero_info p{
     font-weight: 400;
     color: hsl(192, 100%, 9%);
     word-spacing: 3px;
     margin: 2% 0;
+    font-weight: 600;
 }
 
 /* info section */
 
 .info-section{
-    padding: 20% 5%;
-    margin: 0 3%;
+    padding: 15% 5%;
+    margin: 0 15%;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@ header button{
     align-content: center;
 }
 .info-section img{
-    width: 55%;
+    width: 130%;
     object-fit: cover;
 }
 .info-container{
@@ -115,16 +116,19 @@ header button{
 }
 .info-container h2{
     margin: 3% 0;
+    color: hsl(192, 100%, 9%);
 }
 .info-container p{
     font-size: 15px;
     color:hsl(208, 11%, 55%) ;
     line-height: 25px;
+    width: 180%;
 }
 .info-container figure{
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
     width: 60%;
+    margin-left: 40%;
 }
 .info-container_flowing{
     display: flex;
@@ -138,19 +142,21 @@ header button{
 }
 .info-container_flowing h2{
     margin: 3% 0;
+    color: hsl(192, 100%, 9%);
 }
 .info-container_flowing p{
     font-size: 15px;
     color:hsl(208, 11%, 55%) ;
     line-height: 25px;
+    width: 150%;
 }
 .info-container_flowing img{
-    width: 55%;
+    width: 70%;
     object-fit: cover;
 }
 .info-container_flowing figure{
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
     width: 55%;
 }
 
@@ -159,7 +165,7 @@ header button{
 .bottomFree{
     display: flex;
     justify-content: center;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     width: 50%;
     position: relative;
     left: 25%;
@@ -168,11 +174,15 @@ header button{
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+    margin-right: 0;
 }
 .bottomFree div{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.bottomFree h2{
+    color: hsl(192, 100%, 9%);
 }
 .bottomFree button{
     width: 70%;
@@ -192,24 +202,29 @@ header button{
 
 footer{
     background-color: hsl(192, 100%, 9%);
-    padding: 10% ;
+    padding: 6%  10%;
     padding-bottom:7% ;
     display: grid;
     grid-gap: 8%;
-    grid-template-columns: repeat(4,35% 10% 10% 30% );
+    grid-template-columns: 35% 10% 12% 25% ;
+    grid-template-rows:1fr ;
     color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .logo-footer{
-    background-color: white;
-    padding: 1.5%;
-    border-radius: 20px;
-    width: 80%;
+    /* padding: 1.5%; */
+    width: 60%;
     margin-bottom: 13%;
 }
 .first_column{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.first_column p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 90%;
 }
 .location{
     display: flex;
@@ -226,21 +241,25 @@ footer{
 }
 .location img{
     margin-right: 7%;
-    height: 10%;
+    height: 40%;
 }
 .telefono img{
     margin-right: 5%;
-    height: 10%;
+    height: 70%;
 }
 .mail img{
     margin-right: 5%;
-    height: 10%;
+    height: 70%;
 }
 .second_column{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 70%;
+}
+.second_column p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 97%;
 }
 .what{
     margin: 15% 0;
@@ -249,7 +268,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 70%;
+    margin-top: 60%;
+}
+.third_column p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 97%;
 }
 .blog{
     margin: 15% 0;
@@ -258,13 +281,20 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 50%;
 }
 .fourth_column i{
     font-size: 150%;
 }
+.fourth_column p{
+    font-size: 70%;
+    color: rgba(255, 255, 255, 0.8);
+}
 .redesSociales{
     margin-bottom: 40%;
+}
+#twitter{
+    margin: 0 3%;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
