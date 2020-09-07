@@ -299,4 +299,30 @@ footer{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/* responsive design */
 
+@media screen and (max-width:320px){
+    header{
+        margin: 0;
+    }
+    header button{
+        width: 40%;
+        padding: 0;
+    }
+    header img{
+        width: 40%;
+    }
+    .hero{
+        grid-template-columns: 100%;
+    }
+    .hero_info h1{
+        font-size: 20px;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .hero_info p{
+        text-align: center;
+        font-size: 15px ;
+        margin-left: 5%;
+    }
+}
