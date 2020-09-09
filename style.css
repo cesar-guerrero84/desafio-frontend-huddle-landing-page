@@ -296,8 +296,7 @@ footer{
 #twitter{
     margin: 0 3%;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 /* responsive design */
 
@@ -791,5 +790,8 @@ footer{
     }
     .location img{
         height: 30%;
+    }
+    .fourth_column p{
+        font-size: 50%;
     }
 }
