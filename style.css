@@ -304,13 +304,15 @@ footer{
 @media screen and (max-width:320px){
     header{
         margin: 0;
+        padding: 5%;
     }
     header button{
         width: 40%;
-        padding: 0;
+        padding: 2%;
     }
     header img{
         width: 40%;
+        padding: 2%;
     }
     .hero{
         grid-template-columns: 100%;
@@ -319,10 +321,101 @@ footer{
         font-size: 20px;
         margin-left: 5%;
         text-align: center;
+        margin-bottom: 5%;
     }
     .hero_info p{
         text-align: center;
         font-size: 15px ;
         margin-left: 5%;
+    }
+    .hero_info button{
+        width: 80%;
+        padding: 4%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .info-container{
+        flex-direction: column-reverse;
+    }
+    .info-section{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 5%;
+    }
+    .info-container h2{
+        font-size: 120%;
+        text-align: center;
+    }
+    .info-container p{
+        font-size: 80%;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+    }
+    .info-container figure{
+        margin-left: 12%;
+    }
+    .info-container_flowing{
+        flex-direction: column;
+    }
+    .info-container_flowing h2{
+        font-size: 120%;
+        width: 100%;
+        text-align: center;
+    }
+    .info-container_flowing p{
+        font-size: 80%;
+        text-align: center;
+        width:100%;
+    }
+    .info-container_flowing figure{
+        width: 100%;
+        margin-left: 7%;
+    }
+    .info-container_flowing img{
+        width: 80%;
+    }
+    .bottomFree{
+        left: 5%;
+        width: 90%;
+    }
+    .bottomFree h2{
+        font-size: 90%;
+    }
+    .bottomFree button{
+        padding: 15px;
+        margin-left: 15%;
+        font-size: 10px;
+        margin-bottom: 10%;
+    }
+    footer{
+        padding: 40% 5%;
+        grid-template-columns: none;
+    }
+    .second_column{
+        margin: 0;
+    }
+    .third_column{
+        margin: 0;
+    }
+    .fourth_column{
+        margin: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    .fourth_column p{
+        text-align: center;
+        margin: 5% 0;
+    }
+    .redesSociales{
+        margin: 3% 30%;
+        text-align: center;
+    }
+    .blog{
+        margin: 5% 0;
+    }
+    .what{
+        margin: 5% 0;
     }
 }
